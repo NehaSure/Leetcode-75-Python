@@ -1,0 +1,23 @@
+#Solution 1: using sum
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
+        return sum((a,b))
+sol=Solution()
+print(sol.getSum(2,3))
+
+
+
+#Solution 2: Using Bitwise
+     while b!=0:
+         carry=(a&b)<<1
+         a=a^b
+         b=carry
+     return a
+sol=Solution()
+print(sol.getSum(2,3))  
+
+
+#Solution 3 using log
+
+math(log(math.exp(a)*math.exp(b)))
+log(ab)= log(a)+log(b)
